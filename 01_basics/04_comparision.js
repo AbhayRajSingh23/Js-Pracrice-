@@ -14,3 +14,10 @@ console.log("02">1); // Comparision converts the string to number to compaire
 console.log(num > 0);  //false
 console.log(num == 0); // false
 console.log(num >= 0); //conert the null value into the number
+
+//*******we cane do same for undefined but result is always false */
+
+/* *************[=== strick checking ] ************* */
+//also checks datatypes...
+
+console.log("2" === 1); // this will give false any way
