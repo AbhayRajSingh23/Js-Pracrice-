@@ -9,7 +9,7 @@ undefined
 
 
 
-// type casting now
+//***********************type casting now******************************
 
 let score = "3498"
 console.log(typeof score);
