@@ -54,18 +54,23 @@ users[1].email                                          //=> printing/accessing 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));            //=> checks for the keys and return boolean value
 
 
-const course = {
+const course = {                                            //=> this is an oject designed
     coursename: "js in hindi",
     price: "999",
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
+(course.courseInstructor )                             // => this is how to call object 
 
-const {courseInstructor: instructor} = course
+const {courseInstructor: instructor} = course         //=> to remove the repetition of "course._courseInstructor_" we use decustructor method which reduces the labour of writing full name
 
 // console.log(courseInstructor);
-console.log(instructor);
+// console.log(instructor);
+
+
+/* THIS IS AN API (basically an object with no perpositon)*/
+
+//This is also called JASON [it may be in form of nested object or array with object as elements]
 
 // {
 //     "name": "hitesh",
