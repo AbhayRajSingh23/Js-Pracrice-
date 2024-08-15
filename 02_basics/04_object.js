@@ -78,6 +78,7 @@ const {courseInstructor: instructor} = course         //=> to remove the repetit
 //     "price": "free"
 // }
 
+//=> sometimes api will return the json in form of array like the example below
 [
     {},
     {},
